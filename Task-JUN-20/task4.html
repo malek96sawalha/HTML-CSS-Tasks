@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.contaner1{
+    border: 1px dashed black;
+    display: inline-block; 
+}
+.contaner2{
+    border: 1px dashed black;
+    display: inline-block;
+    max-height: 100px;
+    
+    
+   
+}
+.contaner3{
+    border: 1px dashed black;
+    display: inline-block;
+    position:relative ;
+  
+}
+span{
+    background-color: red;
+    width: 100px;
+     height:100px;
+     display: inline-block;
+     
+}
+.test1{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.test2{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+   top: 20px;
+   left: 20px;
+    
+}
+.test3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    
+<h3>position:static</h3>
+<div class="contaner1">
+<span>one</span>
+<span class="test1">two</span>
+<span>three</span>
+<span>four</span>
+</div>
+<br><br>
+<h3>position:relative</h3>
+<div class="contaner2">
+<span>one</span>
+<span class="test2">two</span>
+<span>three</span>
+<span>four</span>
+</div>
+<br><br>
+<h3>position:absolute</h3>
+<div class="contaner3">
+<span>one</span>
+<span class="test3">two</span>
+<span>three</span>
+<span>four</span>
+</div>
+<br>
+
+
+
+
+
+
+</body>
+</html>
