@@ -1,0 +1,41 @@
+.container {
+    border: 10px solid rgb(148, 98, 6);
+    display: flex;
+    width: 100%;
+    color: white;
+    }
+    
+    .container div{
+        height: 700px;
+     width: 90%;
+     font-size: 90px;
+     text-align: center;
+    }
+    
+    #green {
+     background-color: green;
+    }
+    #yellow { 
+    background-color: yellow;
+    }
+    #purple {
+    background-color: purple;
+    }
+    #gray {
+    background-color: gray;
+    }
+    #blue {  
+    background-color: blue;
+    }
+    #orange {
+    background-color: orange;
+    }
+    #pink{
+    background-color: pink;
+    }
+    #red{ 
+    background-color: red;
+    }
+    #brown{
+    background-color: brown;
+    }
