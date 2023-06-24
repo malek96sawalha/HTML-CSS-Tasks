@@ -4,44 +4,24 @@
     grid-template-rows: 20px repeat(4,80px) 20px;
     width: 30%;
 gap: 5px 20px;
-
-
-
 }
 .gray{
     background-color: gray;
     grid-column: 1/13;
-
-
 }
 .blue{
     background-color: blue;
-   
-    grid-column: 1/9;
- 
-   
 }
 .skyblue{
     background-color: rgb(107, 222, 222);
-   
-    grid-column: 8/13;
-    
 }
 .yellow{
     background-color: yellow;
-   
-    grid-column: 1/5;
-    
 }
 .orange{
     background-color: orange;
-   
-    grid-column: 1/4;
-    
 }
-.g1{
-   
-}
+
 .b1{
     grid-column: 1/9;
 }
