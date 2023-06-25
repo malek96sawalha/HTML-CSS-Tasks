@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+         background: linear-gradient(to bottom, green , aqua);
+         width: 200px;
+         height: 200px;   
+            border:1px ;
+            border-radius: 20px;
+            animation: circle 10s linear infinite;
+            animation-name: task;
+            animation-fill-mode: backwards;
+        }
+        @keyframes task {
+       0%{transform: translate(415% , 10px );
+        opacity:1;}
+       15%{transform: translate(415% , 550px);
+    background: linear-gradient(to bottom,aqua,blue);
+    opacity:1; } 
+       30%{transform: translate(100% , 550px);
+    background: linear-gradient(to bottom,blue,yellow); 
+    opacity:1;}
+    40%{transform: translate(0% , 550px);
+        background: linear-gradient(to bottom ,yellow,orange);
+        opacity:1;}
+    60%{transform: translate(0% , 0px);
+        background: linear-gradient(to bottom,orange,brown);
+        opacity:1;}
+    70%{transform: translate(30%, 0px);
+        background: linear-gradient(to bottom,orange,brown);
+        opacity:1;}
+    85%{transform: translate(100%,0px);
+        opacity:1;
+ background: linear-gradient(to bottom,brown,green);}
+    95%{transform: translate(150%, 0px);
+        background: linear-gradient(to bottom,brown,green);
+        opacity: 1}
+    96%{transform: translate(150%, 0px);
+        background: linear-gradient(to bottom,white,white);
+        opacity:0;}
+    100%{transform: translate(250%,0px);
+    background: linear-gradient(to bottom, green, green);
+    opacity:1;}
+       }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
